@@ -1,0 +1,21 @@
+1. VirtualBox Installation
+2. Vagrant Installation
+|-- Test Installation
+|-- Variable Path
+3. vagrant box add laravel/homestead
+|-- Select Hypervisor
+|-- VPN
+4. Clone Homestead Repo
+|-- git clone https://github.com/laravel/homestead.git ~/Homestead
+5. init.bat
+6. ssh-keygen -t rsa -C "your_email@example.com"
+7. Homestead.yaml
+8. Hosts
+9. vagrant up
+|-- vagrant halt
+|-- vagrant destroy --force xxx
+10. Test PHP Homestead Server
+11. MySQL Workbench
+12. IDE --> VSCode + Extensions
+13. Download And Extract PHP on Host Machine
+14. PHP Enviroment Path Variable
