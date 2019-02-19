@@ -9,13 +9,18 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <div class="container">
+            <h1>Image Scrapper (Crawler)</h1>
+        </div>
+        <hr/>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -37,7 +42,7 @@
                         </div>
 
                         <div class = "form-group">
-                            <button type = "submit" class = "btn btn-success btn-sm">Submit</button>
+                            <button type = "submit" class = "btn btn-success btn-block">Submit</button>
                         </div>
                     </form>
                 </div>

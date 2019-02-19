@@ -4,8 +4,8 @@ namespace Crawler\Models;
 
 class CrawlTask
 {
-    private $name;
-    private $urls;
+    public $name;
+    public $urls;
 
     /**
      * Get the value of name
