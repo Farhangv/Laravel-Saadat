@@ -1,12 +1,11 @@
 <?php
 
 namespace Crawler\Models;
-use \JsonSerializable;
 
-class CrawlTask implements JsonSerializable
+class CrawlTask
 {
-    private $name;
-    private $urls;
+    public $name;
+    public $urls;
 
     /**
      * Get the value of name
@@ -44,17 +43,8 @@ class CrawlTask implements JsonSerializable
     public function setUrls($urls)
     {
         $this->urls = $urls;
-        return $this;
-    }
 
-    public function jsonSerialize()
-    {
-        return [
-            'task' => [
-                'name' => $this->getName(),
-                'urls' => $this->getUrls()
-            ]
-        ];
+        return $this;
     }
 }
 
